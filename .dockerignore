@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.hf_cache
+.dev-cert
+backend/.analysis_cache.json
+frontend/serve_https.py
+README.md

@@ -1,0 +1,18 @@
+# --- Agent framework ---
+strands-agents[litellm]
+strands-agents-tools[tavily]
+
+# --- Model access ---
+litellm
+huggingface_hub
+
+# --- Local specialist HF models (sentiment + NER run on-machine, no extra API) ---
+transformers
+torch
+accelerate
+
+# --- Backend service ---
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
